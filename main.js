@@ -1,13 +1,9 @@
-// 1. შექმენით 5 ელემენტიანი რიცვების მასივი, 
-// console.log-ით გამოიტანეთ ამ მასივის ელემენტების საშუალო არითმეტიკული;
-
+// 1.
 let myArr=[1,2,3,4,5];
 
 console.log(myArr.length);
 
-// 2. შექმენით 5 ელემენტიანი მასივი, 
-// რომლის თითოეული ელემენტი არის ობიექტი, რომელსაც გააჩნია name  და age property.
-
+// 2. 
 let myArr2=[
     {
         userName:'nino',
@@ -35,13 +31,7 @@ let myArr2=[
 console.log( myArr2)
 
 
-// 3. შექმენით ობიექტი რომელსაც გააჩნია შემდეგი ველები (properties):
-// firstName - სტრინგ ტიპის მნიშვნელობა
-// lastName - სტრინგ ტიპის მნიშვნელობა
-// address - სტრინგების მასივი
-// age - რიცხვითი მნიშვნელობა
-// phoneNumbers - რიცხვითი მნიშვნელობების მასივი
-
+// 3.
 let myObject={
     firstName:"suzi",
     lastName:"voskanian",
@@ -51,10 +41,7 @@ let myObject={
 };
 console.log(myObject)
 
-// 4. console.log ში გამოიტანეთ სტრინგი "My name is (#3 დავალების firstName  მნიშვნელობა)", 
-// My age is (#3 დავალების age-ის მნიშვნელობა)", 
-// "My address is (#3 დავალების address-ის პირველი ელემენტის მნიშვნელობა)"
-
+// 4.
 
 console.log("my name is " + myObject.firstName);
 console.log("my age is " + myObject.age);
